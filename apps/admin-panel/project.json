@@ -1,0 +1,19 @@
+{
+  "name": "admin-panel",
+  "projectType": "application",
+  "sourceRoot": "apps/admin-panel/src",
+  "targets": {
+    "dev": {
+      "command": "vite --config apps/admin-panel/vite.config.ts"
+    },
+    "build": {
+      "command": "vite build --config apps/admin-panel/vite.config.ts",
+      "outputs": [
+        "{workspaceRoot}/dist/apps/admin-panel"
+      ]
+    },
+    "typecheck": {
+      "command": "tsc -p apps/admin-panel/tsconfig.json --noEmit"
+    }
+  }
+}

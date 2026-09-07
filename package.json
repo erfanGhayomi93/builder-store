@@ -1,0 +1,19 @@
+{
+  "name": "store-builder",
+  "version": "0.0.0",
+  "private": true,
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev:storefront": "nx dev storefront",
+    "dev:merchant": "nx dev merchant-panel",
+    "dev:admin": "nx dev admin-panel",
+    "dev:api": "nx dev api",
+    "build": "nx run-many -t build --parallel=2",
+    "lint": "eslint .",
+    "typecheck": "nx run-many -t typecheck",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  }
+}

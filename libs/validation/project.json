@@ -1,0 +1,8 @@
+{
+  "name": "validation",
+  "projectType": "library",
+  "sourceRoot": "libs/validation/src",
+  "tags": [
+    "type:shared"
+  ]
+}

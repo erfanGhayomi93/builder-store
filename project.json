@@ -1,0 +1,8 @@
+{
+  "name": "workspace",
+  "targets": {
+    "typecheck": {
+      "command": "tsc -p tsconfig.json --noEmit"
+    }
+  }
+}

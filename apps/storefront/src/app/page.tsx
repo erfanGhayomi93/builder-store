@@ -1,0 +1,2 @@
+export default function Home() { return <><header className="border-b px-6 py-4"><span className="font-bold">فروشگاه</span></header><main className="mx-auto max-w-5xl px-6 py-16"><section aria-labelledby="welcome"><h1 id="welcome" className="text-3xl font-bold">به فروشگاه خوش آمدید</h1><p className="mt-4">فروشگاه در حال آماده‌سازی است.</p></section></main><footer className="border-t px-6 py-4">فروشگاه آنلاین</footer></>; }
+

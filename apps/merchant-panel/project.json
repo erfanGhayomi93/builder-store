@@ -1,0 +1,19 @@
+{
+  "name": "merchant-panel",
+  "projectType": "application",
+  "sourceRoot": "apps/merchant-panel/src",
+  "targets": {
+    "dev": {
+      "command": "vite --config apps/merchant-panel/vite.config.ts"
+    },
+    "build": {
+      "command": "vite build --config apps/merchant-panel/vite.config.ts",
+      "outputs": [
+        "{workspaceRoot}/dist/apps/merchant-panel"
+      ]
+    },
+    "typecheck": {
+      "command": "tsc -p apps/merchant-panel/tsconfig.json --noEmit"
+    }
+  }
+}

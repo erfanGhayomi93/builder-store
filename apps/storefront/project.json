@@ -1,0 +1,19 @@
+{
+  "name": "storefront",
+  "projectType": "application",
+  "sourceRoot": "apps/storefront/src",
+  "targets": {
+    "dev": {
+      "command": "next dev apps/storefront --port 3000"
+    },
+    "build": {
+      "command": "next build apps/storefront",
+      "outputs": [
+        "{workspaceRoot}/apps/storefront/.next"
+      ]
+    },
+    "typecheck": {
+      "command": "tsc -p apps/storefront/tsconfig.json --noEmit"
+    }
+  }
+}

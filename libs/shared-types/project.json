@@ -1,0 +1,8 @@
+{
+  "name": "shared-types",
+  "projectType": "library",
+  "sourceRoot": "libs/shared-types/src",
+  "tags": [
+    "type:shared"
+  ]
+}

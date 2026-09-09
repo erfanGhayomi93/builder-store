@@ -4,13 +4,11 @@
   "sourceRoot": "apps/storefront/src",
   "targets": {
     "dev": {
-      "command": "next dev apps/storefront --port 3000"
+      "command": "next dev apps/storefront --port 3100"
     },
     "build": {
       "command": "next build apps/storefront",
-      "outputs": [
-        "{workspaceRoot}/apps/storefront/.next"
-      ]
+      "outputs": ["{workspaceRoot}/apps/storefront/.next"]
     },
     "typecheck": {
       "command": "tsc -p apps/storefront/tsconfig.json --noEmit"

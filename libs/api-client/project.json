@@ -2,7 +2,5 @@
   "name": "api-client",
   "projectType": "library",
   "sourceRoot": "libs/api-client/src",
-  "tags": [
-    "type:shared"
-  ]
+  "tags": ["type:shared"]
 }

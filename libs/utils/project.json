@@ -2,7 +2,5 @@
   "name": "utils",
   "projectType": "library",
   "sourceRoot": "libs/utils/src",
-  "tags": [
-    "type:shared"
-  ]
+  "tags": ["type:shared"]
 }

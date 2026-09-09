@@ -3,10 +3,21 @@
   "defaultBase": "main",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
-    "sharedGlobals": ["{workspaceRoot}/package-lock.json", "{workspaceRoot}/tsconfig.base.json", "{workspaceRoot}/libs/**/*"]
+    "sharedGlobals": [
+      "{workspaceRoot}/package-lock.json",
+      "{workspaceRoot}/tsconfig.base.json",
+      "{workspaceRoot}/libs/**/*"
+    ]
   },
   "targetDefaults": {
-    "build": { "cache": true, "inputs": ["default", "^default"] },
-    "typecheck": { "cache": true, "inputs": ["default", "^default"] }
-  }
+    "build": {
+      "cache": true,
+      "inputs": ["default", "^default"]
+    },
+    "typecheck": {
+      "cache": true,
+      "inputs": ["default", "^default"]
+    }
+  },
+  "analytics": true
 }

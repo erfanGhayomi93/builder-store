@@ -1,39 +1,21 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": [
-      "ES2022",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "strict": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
     "paths": {
-      "@store-builder/contracts": [
-        "libs/contracts/src/index.ts"
-      ],
-      "@store-builder/shared-types": [
-        "libs/shared-types/src/index.ts"
-      ],
-      "@store-builder/validation": [
-        "libs/validation/src/index.ts"
-      ],
-      "@store-builder/utils": [
-        "libs/utils/src/index.ts"
-      ],
-      "@store-builder/api-client": [
-        "libs/api-client/src/index.ts"
-      ],
-      "@store-builder/ui": [
-        "libs/ui/src/index.ts"
-      ],
-      "@store-builder/ui/*": [
-        "libs/ui/src/*"
-      ]
+      "@store-builder/contracts": ["./libs/contracts/src/index.ts"],
+      "@store-builder/shared-types": ["./libs/shared-types/src/index.ts"],
+      "@store-builder/validation": ["./libs/validation/src/index.ts"],
+      "@store-builder/utils": ["./libs/utils/src/index.ts"],
+      "@store-builder/api-client": ["./libs/api-client/src/index.ts"],
+      "@store-builder/ui": ["./libs/ui/src/index.ts"],
+      "@store-builder/ui/*": ["./libs/ui/src/*"],
+      "@store-builder/i18n": ["./libs/i18n/src/index.ts"]
     }
   }
 }

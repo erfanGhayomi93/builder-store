@@ -805,6 +805,8 @@ Do NOT share backend persistence/services/repositories with frontend.
 
 ## 22. RTL / LTR
 
+Updated user decision (2026-09-08): Persian and English are supported now across all three frontends. Persian remains the default (RTL), English uses LTR. Keep translation catalogs and locale metadata centralized and extensible for additional languages. Localize visible text, navigation, page titles and not-found screens; persist the selected language and keep HTML and component direction synchronized.
+
 Default UI:
 - RTL
 - Persian text right-aligned

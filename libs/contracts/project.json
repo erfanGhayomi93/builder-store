@@ -2,7 +2,5 @@
   "name": "contracts",
   "projectType": "library",
   "sourceRoot": "libs/contracts/src",
-  "tags": [
-    "type:shared"
-  ]
+  "tags": ["type:shared"]
 }

@@ -1,3 +1,4 @@
 import { createApiClient } from '@store-builder/api-client';
-export const api = createApiClient(import.meta.env.VITE_API_URL ?? 'http://localhost:3001/api');
-
+export const api = createApiClient(
+  import.meta.env.VITE_API_URL ?? 'http://localhost:3101/api',
+);

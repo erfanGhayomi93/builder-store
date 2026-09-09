@@ -8,9 +8,7 @@
     },
     "build": {
       "command": "vite build --config apps/admin-panel/vite.config.ts",
-      "outputs": [
-        "{workspaceRoot}/dist/apps/admin-panel"
-      ]
+      "outputs": ["{workspaceRoot}/dist/apps/admin-panel"]
     },
     "typecheck": {
       "command": "tsc -p apps/admin-panel/tsconfig.json --noEmit"

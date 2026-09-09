@@ -5,3 +5,4 @@ dist
 coverage
 package-lock.json
 docs/PROJECT_CONTEXT.md
+**/next-env.d.ts

@@ -8,9 +8,7 @@
     },
     "build": {
       "command": "vite build --config apps/merchant-panel/vite.config.ts",
-      "outputs": [
-        "{workspaceRoot}/dist/apps/merchant-panel"
-      ]
+      "outputs": ["{workspaceRoot}/dist/apps/merchant-panel"]
     },
     "typecheck": {
       "command": "tsc -p apps/merchant-panel/tsconfig.json --noEmit"

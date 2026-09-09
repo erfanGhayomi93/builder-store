@@ -12,9 +12,7 @@
     },
     "build": {
       "command": "tsc -p apps/api/tsconfig.json",
-      "outputs": [
-        "{workspaceRoot}/dist/apps/api"
-      ]
+      "outputs": ["{workspaceRoot}/dist/apps/api"]
     },
     "start": {
       "command": "node dist/apps/api/main.js"
